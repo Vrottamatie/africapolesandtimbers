@@ -1,0 +1,119 @@
+.contact-grid-wrapper {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 100px;
+}
+
+.company-metadata-sidebar-wrapper > .logo img {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #72491e;
+    border: 2px solid black;
+}
+
+.company-metadata-sidebar-wrapper > .company-details-wrapper {
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: 1.25em;
+    line-height: 1.5;
+}
+
+.form > .form-group {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.form label {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    display: block;
+    transition: 0.3s;
+    color: #72491e;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.form input:focus + label, .form textarea:focus + label {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(1rem);
+}
+
+
+
+.form input {
+    font-size: 1.5rem;
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    border: none;
+    border-bottom: 3px solid #72491e;
+    width: 100%;
+    display: block;
+    transition: 0.3s;
+}
+
+.form input:focus {
+    outline: none;
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.1);
+    border: 3px solid #72491e;
+}
+
+.form input::-webkit-input-placeholder, .form textarea::-webkit-input-placeholder{
+    color: #72491e;
+}
+
+.form input:focus::-webkit-input-placeholder, .form textarea:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.form textarea {
+    margin-top: 20px;
+    width: 100%;
+    height: 250px;
+    border-radius: 3px;
+    border: 3px solid #72491e;
+    font-size: 1.5rem;
+    padding: 1.5rem 2rem;
+    transition: 0.3s;
+}
+
+.form textarea:focus {
+    outline: none;
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.1);
+    border: 3px solid #72491e;
+}
+
+button {
+    background-color: #72491e;
+    color: black;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid #72491e;
+    border-radius: 2px;
+    outline: none;
+    transition: 0.3s;
+}
+
+button:active {
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}
+
+.centered-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.company-metadata-sidebar-wrapper > .company-details-wrapper i {
+    color: #72491e;
+}
+
+.spacer70 {
+    height: 70px;
+    width: 100%;
+}

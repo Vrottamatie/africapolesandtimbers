@@ -1,0 +1,243 @@
+/* Nav-Logo*/
+
+.navigation-wrapper img {
+    width: 200px;
+    height: 200px;
+}
+
+.navigation-wrapper > .center-column > .nav-logo {
+    display: flex;
+    justify-content: center;
+}
+
+/* Nav-Background */
+
+body {
+    display: block;
+    margin: 0px;
+}
+
+.navigation-wrapper {
+    height: 207px;
+    background-color:#72491e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+}
+
+/* Est - 2020 */
+
+.navigation-wrapper > .center-column > .est {
+    font-family: "Bebas Neue" , sans-serif;
+    color: #cbcbcb;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -50px;
+    margin-top: -40px;
+}
+/* Contact-Address*/
+
+.navigation-wrapper > .contact-address {
+    font-family: "Bebas Neue" , sans-serif;
+    color: #cbcbcb;
+}
+
+.navigation-wrapper > .contact-address {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navigation-wrapper > .contact-address {
+    letter-spacing: 2px;
+    font-size: 1.5em;
+}
+
+/* Hours */
+
+.hours {
+    font-family: "Bebas Neue" , sans-serif;
+    color: #cbcbcb;
+}
+
+.navigation-wrapper > .hours {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navigation-wrapper > .hours {
+    letter-spacing: 2px;
+    font-size: 1.5em;
+}
+
+/* Nav - Links */
+
+.navigation-wrapper > .center-column > .nav-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+}
+
+.navigation-wrapper > .center-column > .nav-links a {
+    width: 70px;
+    text-align: center;
+}
+
+.navigation-wrapper > .center-column > .nav-links a {
+    font-family: "Montserrat" , sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navigation-wrapper > .center-column > .nav-links a:hover {
+    color: black;
+    letter-spacing: 2px;
+}
+
+/* We - Deliver */
+
+.delivery-wrapper {
+    background-color: black;
+    font-family: "Bebas Neue" , sans-serif;
+    font-size: 2em;
+    color: #72491e;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.delivery-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Hero -Section */
+
+.hero-section {
+    background-image: url(../Img/poles\ stacked\ cca\ plate.jpeg);
+    padding: 100px;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First - Heading */
+
+.hero-section > .first-heading {
+    color: #cbcbcb;
+    font-size: 1.5em;
+}
+
+h1 {
+    padding: 1px 20px;
+    background-color: #72491e;
+    color: black;
+    width: 602px;
+    border-radius: 7px;
+    font-size: 1.5em;
+}
+
+.hero-section > .first-heading > .p1 {
+    padding: 1px 20px;
+    background-color: black;
+    width: 447px;
+    border-radius: 7px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #72491e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%px;
+    margin-top: -4px;
+}
+
+/* Footer - Logo */
+
+.footer img {
+    width: 200px;
+    height: 200px;
+}
+
+.footer > .footer-logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 57px;
+}
+
+/* Footer- Links */
+
+.footer > .links-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+.footer > .links-wrapper > .footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer > .links-wrapper > .footer-links a {
+    width: 70px;
+    text-align: center;
+}
+
+.footer > .links-wrapper > .footer-links a {
+    font-family: "Montserrat" , sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.footer > .links-wrapper > .footer-links a:hover {
+    color: black;
+    letter-spacing: 2px;
+}
+
+.copyright {
+    margin-left: 37px;
+    padding-top: 15px;
+    font-size: .7rem;
+    color: #cbcbcb;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* social-media */
+
+.social-media a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    text-decoration: none;
+    color: #cbcbcb;
+    transition: 0.5s;
+    padding-top: 5px;
+}
+
+.social-media a:hover {
+    color: black;
+}
+
+
+

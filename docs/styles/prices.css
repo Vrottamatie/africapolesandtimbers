@@ -1,0 +1,31 @@
+/* Price Text */
+.price-container > .price-wrapper > .price-text p {
+    display: flex;
+    justify-content: center;
+    background-color: #72491e;
+}
+
+.price-container > .price-wrapper > .price-text {
+    font-size: 1.3rem;
+}
+
+.price-container > .price-wrapper > .price-text {
+    padding: 12px 126px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Price List */
+
+.price-list-wrapper > .price-list {
+    display: flex;
+    justify-content: center;
+}
+
+.price-list {
+    border-color: #72491e;
+    border-width: 5px;
+    border-style: solid;
+    margin: 0 130px 40px 130px;
+}
+
